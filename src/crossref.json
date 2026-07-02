@@ -1,0 +1,222 @@
+{
+  "meta": {
+    "purpose": "Conquest cross-reference: competitor heavy-diesel oils -> closest Qalco/CEPSA SPECTRO-TRACTION equivalent, by shared OEM approvals.",
+    "disclaimer": "Approval lists are transcribed from publicly published manufacturer technical data sheets and may change. Equivalence is indicative and based on shared specifications; it is NOT a manufacturer-certified interchange. Always verify against the current data sheet and the equipment maker's requirement before switching.",
+    "sources_note": "Competitor approvals from Shell, ExxonMobil (Mobil), TotalEnergies published TDS pages, June 2026."
+  },
+  "qalco_products": {
+    "traction-max-15w40": {
+      "name": "CEPSA TRACTION MAX 15W40",
+      "dpf": false,
+      "approvals": [
+        "API CI-4",
+        "ACEA E7",
+        "MAN M 3275-1",
+        "MB-Approval 228.3",
+        "VOLVO VDS-3",
+        "MACK EO-N",
+        "RENAULT RLD-2",
+        "CUMMINS CES 20078",
+        "MTU Type 2",
+        "DEUTZ DQC III-18",
+        "CAT ECF-2",
+        "JASO DH-1",
+        "SCANIA",
+        "DAF",
+        "IVECO"
+      ]
+    },
+    "traction-max-20w50": {
+      "name": "CEPSA TRACTION MAX 20W50",
+      "dpf": false,
+      "approvals": [
+        "API CH-4",
+        "MB 228.3",
+        "VOLVO VDS-2",
+        "RENAULT RD-2",
+        "MACK EO-M PLUS",
+        "CUMMINS CES 20077",
+        "MTU Type 2",
+        "DEUTZ DQC II-05",
+        "CAT ECF-1a",
+        "MAN M 3275-1"
+      ]
+    },
+    "traction-advanced-ls-15w40": {
+      "name": "CEPSA TRACTION ADVANCED LS 15W40",
+      "dpf": true,
+      "approvals": [
+        "API CK-4",
+        "ACEA E9",
+        "ACEA E7",
+        "VOLVO VDS-4.5",
+        "RENAULT RLD-3",
+        "MB-Approval 228.31",
+        "DETROIT 93K222",
+        "MACK EOS 4.5",
+        "MTU Type 2.1",
+        "CAT ECF-3",
+        "CUMMINS CES 20086",
+        "JASO DH-2",
+        "MAN M 3775",
+        "DEUTZ DQC III-18 LA",
+        "FORD WSS-M2C171-F1"
+      ]
+    },
+    "traction-advanced-le-10w40": {
+      "name": "CEPSA TRACTION ADVANCED LE 10W40",
+      "dpf": true,
+      "approvals": [
+        "API CJ-4",
+        "ACEA E6",
+        "ACEA E7",
+        "ACEA E9",
+        "MB-Approval 228.51",
+        "VOLVO VDS-4",
+        "MACK EO-O PREMIUM PLUS",
+        "MTU Type 3.1",
+        "DETROIT 93K218",
+        "DEUTZ DQC IV-10 LA",
+        "MAN M 3477",
+        "RENAULT RLD-3",
+        "CUMMINS CES 20081",
+        "CAT ECF-3",
+        "JASO DH-2",
+        "SCANIA LOW ASH"
+      ]
+    }
+  },
+  "competitors": [
+    {
+      "brand": "Shell",
+      "name": "Rimula R4 X 15W-40",
+      "dpf": false,
+      "tier": "non-DPF / older engines",
+      "approvals": [
+        "API CI-4",
+        "ACEA E7",
+        "JASO DH-1",
+        "MB 228.3",
+        "MAN M 3275",
+        "VOLVO VDS-3",
+        "RENAULT RLD-2",
+        "CUMMINS CES 20078",
+        "CAT ECF-2",
+        "MACK EO-N"
+      ],
+      "best_match": "traction-max-15w40"
+    },
+    {
+      "brand": "Shell",
+      "name": "Rimula R4 L 15W-40",
+      "dpf": true,
+      "tier": "Low-SAPS / DPF / Euro V-VI",
+      "approvals": [
+        "API CK-4",
+        "API CJ-4",
+        "API CI-4 PLUS",
+        "ACEA E9",
+        "ACEA E7",
+        "CAT ECF-3",
+        "CUMMINS CES 20086",
+        "CUMMINS CES 20081",
+        "DETROIT 93K222",
+        "DEUTZ DQC III-10 LA",
+        "MAN M 3775",
+        "MB-Approval 228.31",
+        "MTU Type 2.1",
+        "JASO DH-2",
+        "VOLVO VDS-4.5",
+        "MACK EOS 4.5",
+        "RENAULT RLD-3",
+        "FORD WSS-M2C171-F1"
+      ],
+      "best_match": "traction-advanced-ls-15w40"
+    },
+    {
+      "brand": "Mobil",
+      "name": "Delvac MX 15W-40",
+      "dpf": false,
+      "tier": "non-DPF / older engines",
+      "approvals": [
+        "API CI-4 PLUS",
+        "ACEA E7",
+        "MB 228.3",
+        "MAN M 3275",
+        "VOLVO VDS-3",
+        "CAT ECF-2",
+        "CUMMINS CES 20078",
+        "RENAULT RLD-2",
+        "MACK EO-N",
+        "API SL"
+      ],
+      "best_match": "traction-max-15w40"
+    },
+    {
+      "brand": "Mobil",
+      "name": "Delvac MX ESP / Modern 15W-40",
+      "dpf": true,
+      "tier": "Low-SAPS / DPF / Euro V-VI",
+      "approvals": [
+        "API CK-4",
+        "API CJ-4",
+        "API CI-4 PLUS",
+        "ACEA E9",
+        "MB-Approval 228.31",
+        "CUMMINS CES 20086",
+        "CUMMINS CES 20081",
+        "DETROIT 93K222",
+        "VOLVO VDS-4.5",
+        "MACK EOS 4.5",
+        "RENAULT RLD-3",
+        "MAN M 3775",
+        "CAT ECF-3",
+        "API SN"
+      ],
+      "best_match": "traction-advanced-ls-15w40"
+    },
+    {
+      "brand": "TotalEnergies",
+      "name": "Rubia TIR 7400 15W-40",
+      "dpf": false,
+      "tier": "non-DPF / Euro III (up to Euro V some)",
+      "approvals": [
+        "API CI-4",
+        "ACEA E7",
+        "CUMMINS CES 20078",
+        "MACK EO-N",
+        "RENAULT RLD-2",
+        "VOLVO VDS-3",
+        "CAT ECF-1a",
+        "MAN M 3275",
+        "MB 228.3",
+        "SCANIA",
+        "DAF"
+      ],
+      "best_match": "traction-max-15w40"
+    },
+    {
+      "brand": "TotalEnergies",
+      "name": "Rubia TIR 7900 15W-40",
+      "dpf": true,
+      "tier": "Low-SAPS / DPF / Euro VI",
+      "approvals": [
+        "API CK-4",
+        "API CJ-4",
+        "API CI-4 PLUS",
+        "API CH-4",
+        "ACEA E9",
+        "ACEA E7",
+        "CUMMINS CES 20081",
+        "DETROIT 93K218",
+        "MACK EO-O PREMIUM PLUS",
+        "MAN M 3575",
+        "MB-Approval 228.31",
+        "RENAULT RLD-3",
+        "VOLVO VDS-4",
+        "CAT ECF-3"
+      ],
+      "best_match": "traction-advanced-ls-15w40"
+    }
+  ]
+}
